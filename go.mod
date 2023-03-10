@@ -1,4 +1,4 @@
-module github.com/vburenin/ifacemaker
+module github.com/Aurelian-Anghel/ifacemaker
 
 go 1.18
 

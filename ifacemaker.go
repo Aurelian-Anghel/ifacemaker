@@ -9,7 +9,7 @@ import (
 
 	"github.com/jessevdk/go-flags"
 
-	"github.com/vburenin/ifacemaker/maker"
+	"github.com/Aurelian-Anghel/ifacemaker/maker"
 )
 
 type cmdlineArgs struct {

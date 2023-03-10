@@ -73,7 +73,7 @@ func SomeFunction() string {
 var src2 = `package maker
 
 import (
-	"github.com/vburenin/ifacemaker/maker/footest"
+	"github.com/Aurelian-Anghel/ifacemaker/maker/footest"
 )
 
 type TestImpl struct{}
@@ -92,7 +92,7 @@ func (s *TestImpl) fooHelper() string {
 
 var src2_extend = `package maker
 import (
-	"github.com/vburenin/ifacemaker/maker/footest"
+	"github.com/Aurelian-Anghel/ifacemaker/maker/footest"
 )
 
 func (s *TestImpl) UpdateUser(userID string) *footest.User {
